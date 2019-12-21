@@ -37,17 +37,12 @@ ___
 
 | Images | Annotations | QA-Pairs |
 | ------------- |:-------------:| -----:|
-| [Train]() | [Train]() | [Train_V1]() , [Train_V2]() | 
-| [Val]() | [Val]() | [Val_V1]() , [Val_V2]() |
-| [Test]( | [Test]() | [Test_V1]() , [Test_V2]() |
+| [Train]() | [Train]() | [Train-v1]() , [Train-v2]() | 
+| [Validation]() | [Validation]() | [Validation-v1]() , [Validation-v2]() |
+| [Test]() | [Test]() | [Test-v1]() , [Test-v2]() |
 
 
 **Images**
-[![button](http://www.presentationpro.com/images/product/medium/slide/PPP_CGENE_LT3_Presentation-PowerPoint-Slide-Graphic_Push_Button_Up.jpg)](https://mattermost.com)
-
-<p style='color:red'>This is some red text.</p>
-<font color="red">This is some text!</font>
-These are <b style='color:red'>red words</b>
 
 #
 **Annotations**
