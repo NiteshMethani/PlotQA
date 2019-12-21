@@ -43,8 +43,8 @@ ___
 
 
 **Images**
-<a href="#" class="button">This is a pill button</a>
-<button name="button">Click me</button>
+<button type="button" class="btn btn-{{include.button_class}} active">{{include.button_name}}</button>
+
 #
 **Annotations**
 #
