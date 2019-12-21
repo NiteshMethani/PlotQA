@@ -47,10 +47,28 @@ ___
 **Question-Answer pairs**
 
 **1.1**
+
 [Train](), [Validation](), [Test]()
 
 **1.2**
+
 [Train](), [Validation](), [Test]()
+
+The annotations expand to about 800 MB.
+
+Please cite the following if you use the PlotQA dataset in your work:
+```
+@inproceedings{kafle2018dvqa,
+  title={DVQA: Understanding Data Visualizations via Question Answering},
+  author={Kafle, Kushal and Cohen, Scott and Price, Brian and Kanan, Christopher},
+  booktitle={CVPR},
+  year={2018}
+}
+```
+
+# Contact
+Feel free to contact us (contact details on the paper PDF) about any questions, suggestions or comments about either the dataset or the methods used in the paper.
+
 
 <!---
 
