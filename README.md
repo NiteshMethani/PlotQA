@@ -43,7 +43,7 @@ ___
 
 
 **Images**
-<a href="#" class="button pill">This is a pill button</a>
+<a href="#" class="button">This is a pill button</a>
 #
 **Annotations**
 #
