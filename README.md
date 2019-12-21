@@ -35,14 +35,9 @@ ___
 
 ### Download Links
 
-| Images | Annotations | QA-Pairs |
-| ------------- |:-------------:| -----:|
-| [Train]() | [Train]() | [Train-v1]() , [Train-v2]() | 
-| [Validation]() | [Validation]() | [Validation-v1]() , [Validation-v2]() |
-| [Test]() | [Test]() | [Test-v1]() , [Test-v2]() |
-
-
 **Images**
+[Train](), [Validation](), [Test]()
+
 
 #
 **Annotations**
