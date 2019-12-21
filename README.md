@@ -45,15 +45,18 @@ ___
 It consists the following fields:
 
 ```
-models:
+models: It is a list of dictionaries. Depending on the type of the plot (single or 2,3,4-multi), the length of the dictionary can vary from 1 to 4. Each dictionary contain the following keys
+	name: Label corresponding to each datapoint.
+	color: Color corresponding to the `name` datapoint.
+	bboxes: Each bounding box corresponding to the `name` datapoints in the plot.
 type: Type of the image (vbar_categorical, hbar_categorical, dot_line, line)
-general_figure_info: 
+general_figure_info: It is a dictionary containng the following keys
 	title: Bounding box and the text corresponding to the title of the plot.
 	x_axis: Bounding boxes, axis labels, ticks lables corresponding to the x-axis of the plot.
 	y_axis: Bounding boxes, axis labels, ticks lables corresponding to the x-axis of the plot.
 	legend: Bounding boxes, axis labels, ticks lables corresponding to the x-axis of the plot.
-	plot_info:
-	figure_info:
+	plot_info: Bounding box corresponding to the plot.
+	figure_info: Bounding box corresponding to the figure.
 image_index: Image-index corresponding to each image.
 
 type: The image filename which the given metadata applies to
