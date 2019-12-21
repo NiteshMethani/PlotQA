@@ -18,13 +18,13 @@ This paper is to be presented at <a href="https://wacv20.wacv.net/" target="_bla
 #
 **PlotQA 1.2**
 
-# Download Links
+### Download Links
 
-### Images
+**Images**
 #
-### Annotations
+**Annotations**
 #
-### Question-Answer pairs
+**Question-Answer pairs**
 
 <!---
 
