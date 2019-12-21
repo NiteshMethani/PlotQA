@@ -36,7 +36,7 @@ Few examples of the {plot, question, answer} triplets from the PlotQA dataset ar
 
 The plot images for different data splits can be downloaded from the following links:
 
-[Train](), [Validation](), [Test]()
+[Train](https://drive.google.com/file/d/1AYuaPX-Lx7T0GZvnsPgN11Twq2FZbWXL/view?usp=sharing), [Validation](https://drive.google.com/file/d/1i74NRCEb-x44xqzAovuglex5d583qeiF/view?usp=sharing), [Test](https://drive.google.com/file/d/1D_WPUy91vOrFl6cJUkE55n3ZuB6Qrc4u/view?usp=sharing))
 
 #
 **Annotations**
@@ -65,7 +65,7 @@ image_index: Image-index corresponding to each image.
 
 The annotations for the plot images for different data splits can be downloaded from the following links:
 
-[Train](), [Validation](), [Test]()
+[Train](https://drive.google.com/file/d/1VzWwxBVrlep17BGZU17GpLuGpwjyWbzq/view?usp=sharing), [Validation](https://drive.google.com/file/d/1CCp1tvMd62LfBrWa6pRdb1lpg68A2yFw/view?usp=sharing), [Test](https://drive.google.com/file/d/1ikiPqkDgxNilYsU5hbK03T4_x2eDmopP/view?usp=sharing)
 
 #
 **Question-Answer pairs**
@@ -89,13 +89,13 @@ type: Type of the plot (vbar_categorical, hbar_categorical, dot_line, line).
 
 The question-answer pairs for different data splits can be downloaded from the following links:
 
-[Train](), [Validation](), [Test]()
+[Train](https://drive.google.com/file/d/1bBSUutd-Die27ZH3QTMVhBjW9l5hAwrr/view?usp=sharing), [Validation](https://drive.google.com/file/d/1yUjF_9Jgx720Kffef4_JDRt7lTHQZlKH/view?usp=sharing), [Test](https://drive.google.com/file/d/1pKujAjE4yMpSJ8gEQWIxdEyGkorJHeFm/view?usp=sharing)
 
 `qa_pairs_v2.json`: This .json file is an extended version of the `qa_pairs_v1.json` which has 28,952,641 number of question-answer pairs.
 
 The extended version of the question-answer pairs for different data splits can be downloaded from the following links:
 
-[Train](), [Validation](), [Test]()
+[Train](https://drive.google.com/file/d/1UNvkdq1YJD_ne6D3zbWtoQij37AtfpNp/view?usp=sharing), [Validation](https://drive.google.com/file/d/1y9RwXSye2hnX0e2IlfSK34ESbeVblhH_/view?usp=sharing), [Test](https://drive.google.com/file/d/1OQBkoe_dpvFs-jnWAdRdxzh1-hgNd9bO/view?usp=sharing)
 
 
 <!---
