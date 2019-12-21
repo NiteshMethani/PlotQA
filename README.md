@@ -34,6 +34,7 @@ Few examples of the {plot, question, answer} triplets from the PlotQA dataset ar
 `png` directory contains RGBA images of the scientific plots in `.png` format. The plot images are named as `0.png`, `1.png`, etc.
 
 The plot images for different data splits can be downloaded from the following links:
+
 [Train](), [Validation](), [Test]()
 
 #
@@ -62,6 +63,7 @@ image_index: Image-index corresponding to each image.
 ```
 
 The annotations for the plot images for different data splits can be downloaded from the following links:
+
 [Train](), [Validation](), [Test]()
 
 #
@@ -82,14 +84,16 @@ template: Template from which `question_string` is being instantiated.
 type: Type of the plot (vbar_categorical, hbar_categorical, dot_line, line).
 ```
 
-**v1**: `qa_pairs_v1.json` has 8,190,674 number of question-answer pairs. 
+`qa_pairs_v1.json`: This .json file contains 8,190,674 number of question-answer pairs. 
 
 The question-answer pairs for different data splits can be downloaded from the following links:
+
 [Train](), [Validation](), [Test]()
 
-**v2**: `qa_pairs_v2.json` has 28,952,641 number of question-answer pairs. It is an extended version of the `qa_pairs_v1.json`.
+`qa_pairs_v2.json`: This .json file is an extended version of the `qa_pairs_v1.json` which has 28,952,641 number of question-answer pairs.
 
 The extended version of the question-answer pairs for different data splits can be downloaded from the following links:
+
 [Train](), [Validation](), [Test]()
 
 
