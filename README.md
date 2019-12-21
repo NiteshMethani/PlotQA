@@ -44,6 +44,7 @@ ___
 
 **Images**
 <a href="#" class="button">This is a pill button</a>
+<button name="button">Click me</button>
 #
 **Annotations**
 #
