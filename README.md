@@ -19,13 +19,12 @@ Existing synthetic datasets ([FigureQA](https://arxiv.org/pdf/1710.07300.pdf), [
 
 To know more about PlotQA, read our full paper [here](https://arxiv.org/pdf/1909.00997.pdf).
 
-<figure>
+Few examples of the {plot, question, answer} triplets from the PlotQA dataset are given below:
+
 <p float="center">
 	<!--- <img src="images/sample_images.png" width="400" /> --->
 	<img src="images/sample_images.png" />
-	<figcaption>Few examples of the {plot, question, answer} triplets from the PlotQA dataset.</figcaption>
 </p>
-</figure>
 
 #
 **PlotQA 1.1**
