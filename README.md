@@ -25,7 +25,11 @@ Few examples of the {plot, question, answer} triplets from the PlotQA dataset ar
 	<!--- <img src="images/sample_images.png" width="400" /> --->
 	<img src="images/sample_images.png" />
 </p>
+
+---
 #
+##
+
 ### Download Links
 
 **Images**
