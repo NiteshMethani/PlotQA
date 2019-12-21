@@ -45,7 +45,7 @@ ___
 It consists the following fields:
 
 ```
-models: It is a list of dictionaries. <br/>Depending on the type of the plot (single or 2,3,4-multi), the length of the dictionary can vary from 1 to 4. Each dictionary contain the following keys-
+models: It is a list of dictionaries. </br>Depending on the type of the plot (single or 2,3,4-multi), the length of the dictionary can vary from 1 to 4. Each dictionary contain the following keys-
 	name: Label corresponding to each datapoint.
 	color: Color corresponding to the `name` datapoint.
 	bboxes: Each bounding box corresponding to the `name` datapoints in the plot.
