@@ -14,9 +14,9 @@ This paper is to be presented at <a href="https://wacv20.wacv.net/" target="_bla
 ### What is PlotQA?
 
 <p float="left">
-	<img src="images/Q1.png" width="100" />
-	<img src="images/Q2.png" width="100" /> 
-	<img src="images/Q3.png" width="100" />
+	<img src="images/Q1.png" width="500" />
+	<img src="images/Q2.png" width="500" /> 
+	<img src="images/Q3.png" width="500" />
 </p>
 
 #
