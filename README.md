@@ -36,7 +36,7 @@ Few examples of the {plot, question, answer} triplets from the PlotQA dataset ar
 
 The plot images for different data splits can be downloaded from the following links:
 
-[Train](https://drive.google.com/file/d/1AYuaPX-Lx7T0GZvnsPgN11Twq2FZbWXL/view?usp=sharing), [Validation](https://drive.google.com/file/d/1i74NRCEb-x44xqzAovuglex5d583qeiF/view?usp=sharing), [Test](https://drive.google.com/file/d/1D_WPUy91vOrFl6cJUkE55n3ZuB6Qrc4u/view?usp=sharing))
+[Train](https://drive.google.com/file/d/1AYuaPX-Lx7T0GZvnsPgN11Twq2FZbWXL/view?usp=sharing), [Validation](https://drive.google.com/file/d/1i74NRCEb-x44xqzAovuglex5d583qeiF/view?usp=sharing), [Test](https://drive.google.com/file/d/1D_WPUy91vOrFl6cJUkE55n3ZuB6Qrc4u/view?usp=sharing)
 
 #
 **Annotations**
@@ -97,6 +97,8 @@ The extended version of the question-answer pairs for different data splits can 
 
 [Train](https://drive.google.com/file/d/1UNvkdq1YJD_ne6D3zbWtoQij37AtfpNp/view?usp=sharing), [Validation](https://drive.google.com/file/d/1y9RwXSye2hnX0e2IlfSK34ESbeVblhH_/view?usp=sharing), [Test](https://drive.google.com/file/d/1OQBkoe_dpvFs-jnWAdRdxzh1-hgNd9bO/view?usp=sharing)
 
+# Contact
+Feel free to contact us (contact details are present in the paper) about any questions, suggestions or comments about PlotQA.
 
 <!---
 The annotations expand to about 800 MB.
@@ -110,9 +112,6 @@ Please cite the following if you use the PlotQA dataset in your work:
   year={2018}
 }
 ```
-
-# Contact
-Feel free to contact us (contact details on the paper PDF) about any questions, suggestions or comments about either the dataset or the methods used in the paper.
 --->
 
 <!---
