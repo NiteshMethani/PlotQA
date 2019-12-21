@@ -15,7 +15,7 @@ This paper is to be presented at <a href="https://wacv20.wacv.net/" target="_bla
 
 <p float="center">
 	<!--- <img src="images/sample_images.png" width="400" /> --->
-	<img src="images/sample_images.png">
+	<img src="images/sample_images.png" />
 </p>
 
 #
