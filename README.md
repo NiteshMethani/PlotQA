@@ -25,17 +25,20 @@ Few examples of the {plot, question, answer} triplets from the PlotQA dataset ar
 	<!--- <img src="images/sample_images.png" width="400" /> --->
 	<img src="images/sample_images.png" />
 </p>
-___
+#
 
 ### Download Links
 
 **Images**
+
 `png` directory contains RGBA images of the scientific plots in `.png` format. The plot images are named as `0.png`, `1.png`, etc.
 
+The plot images for different data splits can be downloaded from the following links:
 [Train](), [Validation](), [Test]()
 
 #
 **Annotations**
+
 `annotations.json` is a list of dictionaries where each dictionary represents the ground-truth annotations of a plot.
 It consists the following fields:
 ```
@@ -54,12 +57,16 @@ general_figure_info: It is a dictionary containng the following keys-
 		legend: Bounding boxes, axis labels, ticks lables corresponding to the legend of the plot.
 		plot_info: Bounding box corresponding to the plot.
 		figure_info: Bounding box corresponding to the figure.
+	
 image_index: Image-index corresponding to each image.
 ```
 
+The annotations for the plot images for different data splits can be downloaded from the following links:
 [Train](), [Validation](), [Test]()
+
 #
 **Question-Answer pairs**
+
 `qa_pairs.json` is a list of dictionaries where each dictionary represents a question. Each question is represented using the following fields:
 ```
 image_index: Image-index corresponding to the image on which this question is being asked.
@@ -69,20 +76,24 @@ question_string: Text of the question.
 answer: Answer corresponding to the question `question_string`.
 
 answer_bbox: Bounding box of the answer if the answer comes from the plot itself.
+
 template: Template from which `question_string` is being instantiated.
+
 type: Type of the plot (vbar_categorical, hbar_categorical, dot_line, line).
 ```
 
-**v1**
-`qa_pairs_v1.json` has 8,190,674 number of question-answer pairs. 
+**v1**: `qa_pairs_v1.json` has 8,190,674 number of question-answer pairs. 
 
+The question-answer pairs for different data splits can be downloaded from the following links:
 [Train](), [Validation](), [Test]()
 
-**v2**
-`qa_pairs_v2.json` has 28,952,641 number of question-answer pairs. It is an extended version of the `qa_pairs_v1.json`.
+**v2**: `qa_pairs_v2.json` has 28,952,641 number of question-answer pairs. It is an extended version of the `qa_pairs_v1.json`.
 
+The extended version of the question-answer pairs for different data splits can be downloaded from the following links:
 [Train](), [Validation](), [Test]()
 
+
+<!---
 The annotations expand to about 800 MB.
 
 Please cite the following if you use the PlotQA dataset in your work:
@@ -97,7 +108,7 @@ Please cite the following if you use the PlotQA dataset in your work:
 
 # Contact
 Feel free to contact us (contact details on the paper PDF) about any questions, suggestions or comments about either the dataset or the methods used in the paper.
-
+--->
 
 <!---
 
