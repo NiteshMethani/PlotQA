@@ -36,12 +36,13 @@ ___
 ### Download Links
 
 **Images**
+`png` directory contains RGBA images of the scientific plots in `.png` format. The plot images are named as 0.png, 1.png, etc. The images are indexed with their names.
 
 [Train](), [Validation](), [Test]()
 
 #
 **Annotations**
-
+`annotations.json` is a list of dictionaries where each dictionary represents the ground-truth annotations of a plot.
 It consists the following fields:
 ```
 models: It is a list of dictionaries. Depending on the type of the plot (single or 2,3,4-multi), 
@@ -55,8 +56,8 @@ type: Type of the plot (vbar_categorical, hbar_categorical, dot_line, line).
 general_figure_info: It is a dictionary containng the following keys-
 		title: Bounding box and the text corresponding to the title of the plot.
 		x_axis: Bounding boxes, axis labels, ticks lables corresponding to the x-axis of the plot.
-		y_axis: Bounding boxes, axis labels, ticks lables corresponding to the x-axis of the plot.
-		legend: Bounding boxes, axis labels, ticks lables corresponding to the x-axis of the plot.
+		y_axis: Bounding boxes, axis labels, ticks lables corresponding to the y-axis of the plot.
+		legend: Bounding boxes, axis labels, ticks lables corresponding to the legend of the plot.
 		plot_info: Bounding box corresponding to the plot.
 		figure_info: Bounding box corresponding to the figure.
 image_index: Image-index corresponding to each image.
@@ -65,11 +66,14 @@ image_index: Image-index corresponding to each image.
 [Train](), [Validation](), [Test]()
 #
 **Question-Answer pairs**
-`qa_pairs.json` is a list of dictionaries where each dictionary represents a question. A question (in the form of a dictionary) is represented using the following fields:
+`qa_pairs.json` is a list of dictionaries where each dictionary represents a question. Each question is represented using the following fields:
 ```
 image_index: Image-index corresponding to the image on which this question is being asked.
+
 question_string: Text of the question.
+
 answer: Answer corresponding to the question `question_string`.
+
 answer_bbox: Bounding box of the answer if the answer comes from the plot itself.
 template: Template from which `question_string` is being instantiated.
 type: Type of the plot (vbar_categorical, hbar_categorical, dot_line, line).
