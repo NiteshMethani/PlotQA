@@ -43,7 +43,7 @@ ___
 
 
 **Images**
-<button type="button" class="btn btn-{{include.button_class}} active">{{include.button_name}}</button>
+[button url="http://www.google.com"]
 
 #
 **Annotations**
