@@ -9,7 +9,14 @@ This repository provides the scientific plots and question-answer pairs describe
 <a href="http://www.cse.iitm.ac.in/~pratyush/" target="_blank">Pratyush Kumar</a>
 
 
-This paper is to be presented at <a href="https://wacv20.wacv.net/" target="_blank">WACV 2020</a>
+This paper is to be presented at <a href="https://wacv20.wacv.net/" target="_blank">WACV 2020</a>.
+
+## What is PlotQA?
+
+#
+PlotQA 1.1
+#
+PlotQA 1.2
 
 <!---
 
