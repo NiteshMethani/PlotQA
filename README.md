@@ -36,7 +36,7 @@ ___
 ### Download Links
 
 
-| Tables | Are | Cool |
+| Images | Annotations  QA-Pairs |
 | ------------- |:-------------:| -----:|
 | col 3 is | right-aligned | $1600 | 
 | col 2 is | centered | $12 | 
