@@ -45,7 +45,7 @@ ___
 It consists the following fields:
 
 ```
-models: It is a list of dictionaries. Depending on the type of the plot (single or 2,3,4-multi), the length of the dictionary can vary from 1 to 4. Each dictionary contain the following keys
+models: It is a list of dictionaries. <br/>Depending on the type of the plot (single or 2,3,4-multi), the length of the dictionary can vary from 1 to 4. Each dictionary contain the following keys-
 	name: Label corresponding to each datapoint.
 	color: Color corresponding to the `name` datapoint.
 	bboxes: Each bounding box corresponding to the `name` datapoints in the plot.
@@ -57,35 +57,7 @@ general_figure_info: It is a dictionary containng the following keys
 	legend: Bounding boxes, axis labels, ticks lables corresponding to the x-axis of the plot.
 	plot_info: Bounding box corresponding to the plot.
 	figure_info: Bounding box corresponding to the figure.
-image_index: Image-index corresponding to each image.
-
-type: The image filename which the given metadata applies to
-bars:
-	bboxes: Bounding boxes for different bars (number_of_bars x number_of_legends x 4)
-    	names: Names for each bar in the form (number_of_bars x number_of_legends)
-	colors: Color of each bar (number_of_bars x number_of_legends)
-
-texts:
-	text: The string of the text-block in the bar-chart
-    	text_function: The function of text (e.g., title, legend, etc)
-    	bbox: The bounding box surrounding the text-block
-
-table: Underlying table used to create the chart saved in the following format.
-
-	single row charts:
-		C_1 	C_2 	C_3	...	C_N
-		-------------------------------------
-		V_1	V_2	V_3	... 	V_N
-		
-	multi row charts:
-		
-		None |	C_1 	C_2 	C_3	...	C_N
-		-----|---------------------------------------
-		R_1  |	V_11	V_21	V_31	... 	V_N1
-		R_2  |	V_12	V_22	V_32	... 	V_N2
-		...  |	...	...	... 	... 	...
-		R_M  |	V_1M	V_2M	V_3M	... 	V_NM
-	
+image_index: Image-index corresponding to each image.	
 ```
 
 [Train](), [Validation](), [Test]()
