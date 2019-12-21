@@ -45,7 +45,7 @@ ___
 It consists the following fields:
 
 ```
-<u>models</u>: It is a list of dictionaries. Depending on the type of the plot (single or 2,3,4-multi), 
+*models*: It is a list of dictionaries. Depending on the type of the plot (single or 2,3,4-multi), 
 	the length of the dictionary can vary from 1 to 4. 
 	Each dictionary contain the following keys-
 	name: Label corresponding to each datapoint.
