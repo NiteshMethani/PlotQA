@@ -25,18 +25,12 @@ Few examples of the {plot, question, answer} triplets from the PlotQA dataset ar
 	<!--- <img src="images/sample_images.png" width="400" /> --->
 	<img src="images/sample_images.png" />
 </p>
-
-#
-**PlotQA 1.1**
-#
-**PlotQA 1.2**
-
 ___
 
 ### Download Links
 
 **Images**
-`png` directory contains RGBA images of the scientific plots in `.png` format. The plot images are named as 0.png, 1.png, etc. The images are indexed with their names.
+`png` directory contains RGBA images of the scientific plots in `.png` format. The plot images are named as `0.png`, `1.png`, etc.
 
 [Train](), [Validation](), [Test]()
 
@@ -79,11 +73,13 @@ template: Template from which `question_string` is being instantiated.
 type: Type of the plot (vbar_categorical, hbar_categorical, dot_line, line).
 ```
 
-**1.1**
+**v1**
+`qa_pairs_v1.json` has 8,190,674 number of question-answer pairs. 
 
 [Train](), [Validation](), [Test]()
 
-**1.2**
+**v2**
+`qa_pairs_v2.json` has 28,952,641 number of question-answer pairs. It is an extended version of the `qa_pairs_v1.json`.
 
 [Train](), [Validation](), [Test]()
 
