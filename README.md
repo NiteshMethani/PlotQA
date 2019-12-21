@@ -42,6 +42,49 @@ ___
 #
 **Annotations**
 
+It consists the following fields:
+
+```
+models:
+type: Type of the image (vbar_categorical, hbar_categorical, dot_line, line)
+general_figure_info: 
+	title: Bounding box and the text corresponding to the title of the plot.
+	x_axis: Bounding boxes, axis labels, ticks lables corresponding to the x-axis of the plot.
+	y_axis: Bounding boxes, axis labels, ticks lables corresponding to the x-axis of the plot.
+	legend: Bounding boxes, axis labels, ticks lables corresponding to the x-axis of the plot.
+	plot_info:
+	figure_info:
+image_index: Image-index corresponding to each image.
+
+type: The image filename which the given metadata applies to
+bars:
+	bboxes: Bounding boxes for different bars (number_of_bars x number_of_legends x 4)
+    	names: Names for each bar in the form (number_of_bars x number_of_legends)
+	colors: Color of each bar (number_of_bars x number_of_legends)
+
+texts:
+	text: The string of the text-block in the bar-chart
+    	text_function: The function of text (e.g., title, legend, etc)
+    	bbox: The bounding box surrounding the text-block
+
+table: Underlying table used to create the chart saved in the following format.
+
+	single row charts:
+		C_1 	C_2 	C_3	...	C_N
+		-------------------------------------
+		V_1	V_2	V_3	... 	V_N
+		
+	multi row charts:
+		
+		None |	C_1 	C_2 	C_3	...	C_N
+		-----|---------------------------------------
+		R_1  |	V_11	V_21	V_31	... 	V_N1
+		R_2  |	V_12	V_22	V_32	... 	V_N2
+		...  |	...	...	... 	... 	...
+		R_M  |	V_1M	V_2M	V_3M	... 	V_NM
+	
+```
+
 [Train](), [Validation](), [Test]()
 #
 **Question-Answer pairs**
