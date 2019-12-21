@@ -36,13 +36,21 @@ ___
 ### Download Links
 
 **Images**
-[Train](), [Validation](), [Test]()
 
+[Train](), [Validation](), [Test]()
 
 #
 **Annotations**
+
+[Train](), [Validation](), [Test]()
 #
 **Question-Answer pairs**
+
+**1.1**
+[Train](), [Validation](), [Test]()
+
+**1.2**
+[Train](), [Validation](), [Test]()
 
 <!---
 
