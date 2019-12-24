@@ -34,7 +34,7 @@ Few examples of the {plot, question, answer} triplets from the PlotQA dataset ar
 
 `png` directory contains RGBA images of the scientific plots in `.png` format. The plot images are named as `0.png`, `1.png`, etc.
 
-The plot images for different data splits can be downloaded from the following links:
+The plot images for different data splits can be downloaded from the following link:
 
 [Train](https://drive.google.com/file/d/1AYuaPX-Lx7T0GZvnsPgN11Twq2FZbWXL/view?usp=sharing), [Validation](https://drive.google.com/file/d/1i74NRCEb-x44xqzAovuglex5d583qeiF/view?usp=sharing), [Test](https://drive.google.com/file/d/1D_WPUy91vOrFl6cJUkE55n3ZuB6Qrc4u/view?usp=sharing)
 
