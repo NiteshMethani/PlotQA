@@ -1,5 +1,5 @@
 # PlotQA: Reasoning over Scientific Plots
-This repository provides the scientific plots and question-answer pairs described in the paper:
+This repository provides the dataset described in the paper:
 
 **[PlotQA: Reasoning over Scientific Plots](https://arxiv.org/pdf/1909.00997.pdf)**
  <br>
