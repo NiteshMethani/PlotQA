@@ -5,7 +5,7 @@
 This repository provides the PlotQA dataset which deals with the task of question-answering over a very specific class of images, namely scientific plots such as bar plots, line plots, and dot-line plots. This work is to be presented at <a href="https://wacv20.wacv.net/" target="_blank">WACV 2020</a>.
 -->
 
-This repository provides the dataset described in the paper:
+This is a dedicated repository for the paper:
 
 **[PlotQA: Reasoning over Scientific Plots](https://arxiv.org/pdf/1909.00997.pdf)**
  <br>
