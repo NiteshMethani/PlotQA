@@ -124,6 +124,10 @@ The model predictions will be saved in the file `[OUTPUT_DIR]/test/coco_val/gene
 
 You can download the saved weights from [here](https://drive.google.com/drive/folders/1P00jD-WFg_RBissIPmuWEWct3xoM3mgU?usp=sharing).
 
+# Requirements
+Before moving to the next stage you might need to install some packages like click, tqdm, pyocr, matplotlib, etc.
+You can refer to `.sh` files in [this](https://drive.google.com/drive/folders/1hDlMCgxmrfiqhuydRT3OnP4Fqp9eyGu-?usp=sharing) for the exact commands that we used to install a particular package.
+
 #
 **OCR and SIE stage**
 
@@ -131,7 +135,8 @@ You can download the saved weights from [here](https://drive.google.com/drive/fo
 ```
 python2 generate_detections_for_fasterrcnn.py [OUTPUT_DIR]/test/coco_val/generalized_rcnn bbox_coco_val_results.json detections
 ```
-This will store the modified model predictions at `[OUTPUT_DIR]/test/coco_val/generalized_rcnn/detections`. The detections are of the format: `CLASS_LABEL CLASS_CONFIDENCE XMIN YMIN XMAX YMAX`. (XMIN, YMIN) and (XMAX, YMAX) refers to the top-left and bottom-right co-ordinates of the predicted bounding box respectively.
+This will store the modified model predictions at `[OUTPUT_DIR]/test/coco_val/generalized_rcnn/detections`. The detections are of the format: `CLASS_LABEL CLASS_CONFIDENCE XMIN YMIN XMAX YMAX` where (XMIN, YMIN) and (XMAX, YMAX) refers to the top-left and bottom-right co-ordinates of the predicted bounding box respectively.
+
 2. Download the code directory from [here](https://drive.google.com/drive/folders/1cuvFdPVUI1IKx25g56mt5F0FeS_ai4XV?usp=sharing). Run the following command to extract the plot information inito a semi-strucutred table:
 ```
 python ocr_and_sie.py [PATH_TO_PNG_DIR] [PATH_TO_DETECTIONS] [OUTPUT_DIR]
