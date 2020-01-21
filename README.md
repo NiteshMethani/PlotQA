@@ -1,19 +1,21 @@
-# PlotQA: Reasoning over Scientific Plots
-This repository provides the PlotQA dataset which deals with the task of question-answering over a very specific class of images, namely scientific plots such as bar plots, line plots, and dot-line plots. This work is to be presented at <a href="https://wacv20.wacv.net/" target="_blank">WACV 2020</a>.
-
 <!--
+# PlotQA: Reasoning over Scientific Plots
+
+This repository provides the PlotQA dataset which deals with the task of question-answering over a very specific class of images, namely scientific plots such as bar plots, line plots, and dot-line plots. This work is to be presented at <a href="https://wacv20.wacv.net/" target="_blank">WACV 2020</a>.
+-->
+
 This repository provides the dataset described in the paper:
 
 **[PlotQA: Reasoning over Scientific Plots](https://arxiv.org/pdf/1909.00997.pdf)**
  <br>
  <a href="https://gangulypritha.github.io/" target="_blank">Pritha Ganguly</a>,
  <a href="https://niteshmethani.github.io/" target="_blank">Nitesh Methani</a>,
-<a href="https://www.cse.iitm.ac.in/~miteshk/" target="_blank">Mitesh Khapra</a>,
-<a href="http://www.cse.iitm.ac.in/~pratyush/" target="_blank">Pratyush Kumar</a>
+ <a href="https://www.cse.iitm.ac.in/~miteshk/" target="_blank">Mitesh Khapra</a>,
+ <a href="http://www.cse.iitm.ac.in/~pratyush/" target="_blank">Pratyush Kumar</a>
 
 
 This paper deals with the task of question-answering over a very specific class of images, namely scientific plots such as bar plots, line plots, and dot-line plots. This work is to be presented at <a href="https://wacv20.wacv.net/" target="_blank">WACV 2020</a>.
--->
+
 
 
 ### What is PlotQA?
