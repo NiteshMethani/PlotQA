@@ -55,7 +55,7 @@ Run this command for testing:
 ./run_plotqa @cldir=0 @mode=tables @data=test @feat=all @train=1 @memsize=high -Parser.beamSize 50 -maxExamples train:100 -Builder.inParamsPath state/execs/5.exec/params
 ```
 
-If you wish to create your own `.examples` file, run the notebook `QA_to_Lisp.ipynb` after constructing the tables in csv format and replace the corresponsing filename in the 'run_plotqa' script.
+If you wish to create your own `.examples` file, run the notebook `QA_to_Lisp.ipynb` after constructing the tables in csv format and replace the corresponsing filename in the 'run_plotqa' script. You can download the notebook from [here](https://drive.google.com/file/d/1d6m5DTQTj2_2DwOO6sQ1bfczKZ1rdXe4/view?usp=sharing).
 
 If you wish to train the model from scratch, use the training command as mentioned in [this](https://github.com/percyliang/sempre/tree/master/tables) repository.
 
