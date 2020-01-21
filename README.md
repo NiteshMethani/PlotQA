@@ -104,12 +104,12 @@ The extended version of the question-answer pairs for different data splits can 
 
 #
 # QA-as-classification code
-# Visual Element Detection (VED):
+**Visual Element Detection (VED)**
 
-We used Detectron which is Facebook AI Research's software system that implements state-of-the-art object detection algorithms. It is written in Python and powered by the Caffe2 deep learning framework. We used the Faster RCNN with FPN model given at https://github.com/facebookresearch/Detectron for detecting different elements in the plot images.
+For this stage, we used Detectron which is Facebook AI Research's software system that implements state-of-the-art object detection algorithms. It is written in Python and powered by the Caffe2 deep learning framework. We used the Faster RCNN with FPN model given at https://github.com/facebookresearch/Detectron for detecting different elements in the plot images.
 
-Now follow these instructions to train the Faster RCNN with FPN model on PlotQA dataset:
-1. Install Caffe2 and Detecron. You might have to use [this script] (https://drive.google.com/file/d/1uk8qqzcvLV7fWQ6EcavVBb0BYXxPGf5U/view?usp=sharing) to install Caffe2 on a AWS GPU instance.
+Follow these instructions to train the Faster RCNN with FPN model on the PlotQA dataset:
+1. Install Caffe2 and Detecron. You might have to use [this] (https://drive.google.com/file/d/1uk8qqzcvLV7fWQ6EcavVBb0BYXxPGf5U/view?usp=sharing) script to install Caffe2 on a AWS GPU instance.
 2. Download the PlotQA images and the coco-style annotations from [here]() and extract it in the directory: '~/Detectron/detectron/datasets/data/.'
 3. Replace the '~/Detectron/detectron/datasets/dataset_catalog.py' with the file which can be downloaded from [here]().
 4. Download the `e2e_faster_rcnn_R-50-FPN_1x.yaml` config file from here. This file has the hyperparameter settings that we have used for training.
