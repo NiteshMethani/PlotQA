@@ -1,5 +1,5 @@
 ### PlotQA Dataset Download Links
-
+#
 **Images**
 
 `png` directory contains RGBA images of the scientific plots in `.png` format. The plot images are named as `0.png`, `1.png`, etc.
@@ -66,11 +66,6 @@ The question-answer pairs for different data splits can be downloaded from the f
 The extended version of the question-answer pairs for different data splits can be downloaded from the following links:
 
 [Train](https://drive.google.com/file/d/1UNvkdq1YJD_ne6D3zbWtoQij37AtfpNp/view?usp=sharing), [Validation](https://drive.google.com/file/d/1y9RwXSye2hnX0e2IlfSK34ESbeVblhH_/view?usp=sharing), [Test](https://drive.google.com/file/d/1OQBkoe_dpvFs-jnWAdRdxzh1-hgNd9bO/view?usp=sharing)
-
-#
-**Table QA stage**
-
-To be updated soon
 
 #
 Please cite the following if you use the PlotQA dataset in your work:
