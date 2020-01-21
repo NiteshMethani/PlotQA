@@ -17,7 +17,9 @@ The model predictions will be saved in the file `[OUTPUT_DIR]/test/coco_val/gene
 
 You can download the saved weights from [here](https://drive.google.com/drive/folders/1P00jD-WFg_RBissIPmuWEWct3xoM3mgU?usp=sharing).
 
+#
 **Requirements**
+
 Before moving to the next stage, you might need to install some packages like click, tqdm, pyocr, matplotlib, etc.
 You can refer to `.sh` files in [this](https://drive.google.com/drive/folders/1hDlMCgxmrfiqhuydRT3OnP4Fqp9eyGu-?usp=sharing) directory for the exact commands that we used to install a particular package.
 
@@ -60,28 +62,3 @@ If you wish to create your own `.examples` file, run the notebook `QA_to_Lisp.ip
 If you wish to train the model from scratch, use the training command as mentioned in [this](https://github.com/percyliang/sempre/tree/master/tables) repository.
 
 #
-Please cite the following if you use the PlotQA dataset in your work:
-```
-@article{DBLP:journals/corr/abs-1909-00997,
-  author    = {Nitesh Methani and
-               Pritha Ganguly and
-               Mitesh M. Khapra and
-               Pratyush Kumar},
-  title     = {PlotQA: Reasoning over Scientific Plots},
-  journal   = {CoRR},
-  volume    = {abs/1909.00997},
-  year      = {2019},
-  url       = {http://arxiv.org/abs/1909.00997},
-  archivePrefix = {arXiv},
-  eprint    = {1909.00997},
-  timestamp = {Mon, 16 Sep 2019 17:27:14 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1909-00997},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-```
-
-#
-# Contact
-If you have any questions, suggestions or comments about the dataset in the paper, feel free to contact us at:
-Nitesh Methani (nmethani@cse.iitm.ac.in), Pritha Ganguly (prithag@cse.iitm.ac.in).
-
