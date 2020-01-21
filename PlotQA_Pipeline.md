@@ -39,7 +39,25 @@ This command will store the tables into `.csv` format in the `[OUTPUT_DIR]`
 #
 **Table QA stage**
 
-To be updated soon
+Install SEMPRE using the following links:
+
+1. https://github.com/percyliang/sempre
+2. https://github.com/percyliang/sempre/tree/master/tables
+
+After making sure that it works for the WikiTables dataset, place [this](https://drive.google.com/drive/folders/1uNyJEhNS5kvbI40i1iVXPlmQVdgrZogs?usp=sharing) directory in this directory: `[PATH_TO_SEMPRE]/sempre/lib/data/.`
+
+Replace the `[PATH_TO_SEMPRE]/run` ruby script with `[PATH_TO_SEMPRE]/run_plotqa`. The changes where the training and testing files needs to be modified have been mentioned with the comment "PlotQA". Download the `run_plotqa` script from [here](https://drive.google.com/file/d/1Q5h5qsK_6wLAUYIXDgD7_GvzGdcDcH-i/view?usp=sharing).
+
+You can download the saved weights from [here](https://drive.google.com/drive/folders/1bg5X1QMP0n5NhUD8PxdohUWxQf5vycpH?usp=sharing) and place it in this directory `[PATH_TO_SEMPRE]/state/execs/.`
+
+Run this command for testing:
+```
+./run_plotqa @cldir=0 @mode=tables @data=test @feat=all @train=1 @memsize=high -Parser.beamSize 50 -maxExamples train:100 -Builder.inParamsPath state/execs/5.exec/params
+```
+
+If you wish to create your own `.examples` file, run the notebook `QA_to_Lisp.ipynb` after constructing the tables in csv format and replace the corresponsing filename in the 'run_plotqa' script.
+
+If you wish to train the model from scratch, use the training command as mentioned in [this](https://github.com/percyliang/sempre/tree/master/tables) repository.
 
 #
 Please cite the following if you use the PlotQA dataset in your work:
