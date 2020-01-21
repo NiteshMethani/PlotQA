@@ -120,10 +120,14 @@ python tools/train_net.py --cfg [PATH_TO_THE_CONFIG]/e2e_faster_rcnn_R-50-FPN_1x
 
 You can download the saved weights from [here](https://drive.google.com/drive/folders/1P00jD-WFg_RBissIPmuWEWct3xoM3mgU?usp=sharing).
 
+#
 **OCR and SIE stage**
+
 To be updated soon
 
+#
 **Table QA stage**
+
 To be updated soon
 
 #
