@@ -42,6 +42,7 @@ To check the code for our proposed pipeline, click [here](https://github.com/Nit
 
 #
 **Citation**
+
 Please cite the following if you use the PlotQA dataset in your work:
 ```
 @article{DBLP:journals/corr/abs-1909-00997,
