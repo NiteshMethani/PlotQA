@@ -104,16 +104,17 @@ The extended version of the question-answer pairs for different data splits can 
 
 #
 # QA-as-classification code
-Visual Element Detection (VED) stage:
+# Visual Element Detection (VED):
+
 We used Detectron which is Facebook AI Research's software system that implements state-of-the-art object detection algorithms. It is written in Python and powered by the Caffe2 deep learning framework. We used the Faster RCNN with FPN model given at https://github.com/facebookresearch/Detectron for detecting different elements in the plot images.
 
 Now follow these instructions to train the Faster RCNN with FPN model on PlotQA dataset:
-1. Install Caffe2 and Detecron. You might have to use the script given in the link (https://drive.google.com/file/d/1uk8qqzcvLV7fWQ6EcavVBb0BYXxPGf5U/view?usp=sharing) to install Caffe2 on a AWS GPU instance.
-2. Download the PlotQA images and the annotations from here and put it in the directory: ~/Detectron/detectron/datasets/data/.
-3. Replace the ~/Detectron/detectron/datasets/dataset_catalog.py with the file given here.
-4. Download the xyz.yaml config file from here.
-5. Run this command to start training:
-python tools/train_net.py --cfg [PATH_TO_THE_CONFIG]/e2e_faster_rcnn_R-50-FPN_1x.yaml  OUTPUT_DIR [PATH_TO_OUTPUT_DIR]
+1. Install Caffe2 and Detecron. You might have to use [this script] (https://drive.google.com/file/d/1uk8qqzcvLV7fWQ6EcavVBb0BYXxPGf5U/view?usp=sharing) to install Caffe2 on a AWS GPU instance.
+2. Download the PlotQA images and the coco-style annotations from [here]() and extract it in the directory: '~/Detectron/detectron/datasets/data/.'
+3. Replace the '~/Detectron/detectron/datasets/dataset_catalog.py' with the file which can be downloaded from [here]().
+4. Download the `e2e_faster_rcnn_R-50-FPN_1x.yaml` config file from here. This file has the hyperparameter settings that we have used for training.
+5. Run the following command to start training:
+`python tools/train_net.py --cfg [PATH_TO_THE_CONFIG]/e2e_faster_rcnn_R-50-FPN_1x.yaml  OUTPUT_DIR [PATH_TO_OUTPUT_DIR]`
 
 #
 # Contact
