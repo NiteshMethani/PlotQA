@@ -103,8 +103,8 @@ The extended version of the question-answer pairs for different data splits can 
 [Train](https://drive.google.com/file/d/1UNvkdq1YJD_ne6D3zbWtoQij37AtfpNp/view?usp=sharing), [Validation](https://drive.google.com/file/d/1y9RwXSye2hnX0e2IlfSK34ESbeVblhH_/view?usp=sharing), [Test](https://drive.google.com/file/d/1OQBkoe_dpvFs-jnWAdRdxzh1-hgNd9bO/view?usp=sharing)
 
 #
-# QA-as-classification code
-**Visual Element Detection (VED)**
+# PlotQA Pipeline code
+**VED stage**
 
 For this stage, we used Detectron which is Facebook AI Research's software system that implements state-of-the-art object detection algorithms. It is written in Python and powered by the Caffe2 deep learning framework. We used the Faster RCNN with FPN model given at https://github.com/facebookresearch/Detectron for detecting different elements in the plot images.
 
@@ -119,6 +119,12 @@ python tools/train_net.py --cfg [PATH_TO_THE_CONFIG]/e2e_faster_rcnn_R-50-FPN_1x
 ```
 
 You can download the saved weights from [here](https://drive.google.com/drive/folders/1P00jD-WFg_RBissIPmuWEWct3xoM3mgU?usp=sharing).
+
+**OCR and SIE stage**
+To be updated soon
+
+**Table QA stage**
+To be updated soon
 
 #
 Please cite the following if you use the PlotQA dataset in your work:
