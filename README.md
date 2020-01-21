@@ -110,11 +110,36 @@ For this stage, we used Detectron which is Facebook AI Research's software syste
 
 Follow these instructions to train the Faster RCNN with FPN model on the PlotQA dataset:
 1. Install Caffe2 and Detecron. You might have to use [this](https://drive.google.com/file/d/1uk8qqzcvLV7fWQ6EcavVBb0BYXxPGf5U/view?usp=sharing) script to install Caffe2 on a AWS GPU instance.
-2. Download the PlotQA images and the coco-style annotations from [here]() and extract it in the directory: '~/Detectron/detectron/datasets/data/.'
-3. Replace the '~/Detectron/detectron/datasets/dataset_catalog.py' with the file which can be downloaded from [here]().
-4. Download the `e2e_faster_rcnn_R-50-FPN_1x.yaml` config file from here. This file has the hyperparameter settings that we have used for training.
+2. Download the PlotQA directory which contains the images and the coco-style annotations from [here](https://drive.google.com/drive/folders/15bWhzXxAN4WsXn4p37t_GYABb1F52nQw?usp=sharing) and extract it in the directory: '~/Detectron/detectron/datasets/data/.'
+3. Replace the `~/Detectron/detectron/datasets/dataset_catalog.py` with the file which can be downloaded from [here](https://drive.google.com/file/d/1rbhiS-Q6-pHyPkdngDRKtZz51f6HA1AZ/view?usp=sharing).
+4. Download the `e2e_faster_rcnn_R-50-FPN_1x.yaml` config file from [here](https://drive.google.com/file/d/1uv7EGLeAixkKseZZLBnLTikG2xmXZpRu/view?usp=sharing). This file has the hyperparameter settings that we have used for training.
 5. Run the following command to start training:
-`python tools/train_net.py --cfg [PATH_TO_THE_CONFIG]/e2e_faster_rcnn_R-50-FPN_1x.yaml  OUTPUT_DIR [PATH_TO_OUTPUT_DIR]`
+```
+python tools/train_net.py --cfg [PATH_TO_THE_CONFIG]/e2e_faster_rcnn_R-50-FPN_1x.yaml  OUTPUT_DIR [PATH_TO_OUTPUT_DIR]
+```
+
+You can download the saved weights from [here](https://drive.google.com/drive/folders/1P00jD-WFg_RBissIPmuWEWct3xoM3mgU?usp=sharing).
+
+#
+Please cite the following if you use the PlotQA dataset in your work:
+```
+@article{DBLP:journals/corr/abs-1909-00997,
+  author    = {Nitesh Methani and
+               Pritha Ganguly and
+               Mitesh M. Khapra and
+               Pratyush Kumar},
+  title     = {PlotQA: Reasoning over Scientific Plots},
+  journal   = {CoRR},
+  volume    = {abs/1909.00997},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1909.00997},
+  archivePrefix = {arXiv},
+  eprint    = {1909.00997},
+  timestamp = {Mon, 16 Sep 2019 17:27:14 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1909-00997},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
 
 #
 # Contact
