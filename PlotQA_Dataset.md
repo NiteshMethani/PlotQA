@@ -68,27 +68,3 @@ The extended version of the question-answer pairs for different data splits can 
 [Train](https://drive.google.com/file/d/1UNvkdq1YJD_ne6D3zbWtoQij37AtfpNp/view?usp=sharing), [Validation](https://drive.google.com/file/d/1y9RwXSye2hnX0e2IlfSK34ESbeVblhH_/view?usp=sharing), [Test](https://drive.google.com/file/d/1OQBkoe_dpvFs-jnWAdRdxzh1-hgNd9bO/view?usp=sharing)
 
 #
-Please cite the following if you use the PlotQA dataset in your work:
-```
-@article{DBLP:journals/corr/abs-1909-00997,
-  author    = {Nitesh Methani and
-               Pritha Ganguly and
-               Mitesh M. Khapra and
-               Pratyush Kumar},
-  title     = {PlotQA: Reasoning over Scientific Plots},
-  journal   = {CoRR},
-  volume    = {abs/1909.00997},
-  year      = {2019},
-  url       = {http://arxiv.org/abs/1909.00997},
-  archivePrefix = {arXiv},
-  eprint    = {1909.00997},
-  timestamp = {Mon, 16 Sep 2019 17:27:14 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1909-00997},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-```
-
-#
-# Contact
-If you have any questions, suggestions or comments about the dataset in the paper, feel free to contact us at:
-Nitesh Methani (nmethani@cse.iitm.ac.in), Pritha Ganguly (prithag@cse.iitm.ac.in).
