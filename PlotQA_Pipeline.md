@@ -17,7 +17,7 @@ The model predictions will be saved in the file `[OUTPUT_DIR]/test/coco_val/gene
 
 You can download the saved weights from [here](https://drive.google.com/drive/folders/1P00jD-WFg_RBissIPmuWEWct3xoM3mgU?usp=sharing).
 
-# Requirements
+**Requirements**
 Before moving to the next stage, you might need to install some packages like click, tqdm, pyocr, matplotlib, etc.
 You can refer to `.sh` files in [this](https://drive.google.com/drive/folders/1hDlMCgxmrfiqhuydRT3OnP4Fqp9eyGu-?usp=sharing) directory for the exact commands that we used to install a particular package.
 
