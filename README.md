@@ -41,7 +41,7 @@ To download the dataset, click [here](https://github.com/NiteshMethani/PlotQA/bl
 To check the code for our proposed pipeline, click [here](https://github.com/NiteshMethani/PlotQA/blob/master/PlotQA_Pipeline.md).
 
 #
-**Citation**
+# Citation
 
 Please cite the following if you use the PlotQA dataset in your work:
 ```
