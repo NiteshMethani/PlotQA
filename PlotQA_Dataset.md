@@ -12,10 +12,10 @@ The plot images for different data splits can be downloaded from the following l
 **Annotations**
 
 `annotations.json` is a list of dictionaries where each dictionary represents the ground-truth annotations of a plot.
-It consists the following fields:
+It consists of the following fields:
 ```
 models: It is a list of dictionaries. Depending on the type of the plot (single or 2,3,4-multi), 
-	the length of the dictionary can vary from 1 to 4. Each dictionary contain the following keys-
+	the length of the dictionary can vary from 1 to 4. Each dictionary contains the following keys-
 		name: Label corresponding to each datapoint.
 		color: Color corresponding to the `name` datapoint.
 		bboxes: Each bounding box corresponding to the `name` datapoints in the plot.
