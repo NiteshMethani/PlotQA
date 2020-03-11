@@ -16,9 +16,12 @@ It consists of the following fields:
 ```
 models: It is a list of dictionaries. Depending on the type of the plot (single or 2,3,4-multi), 
 	the length of the dictionary can vary from 1 to 4. Each dictionary contains the following keys-
-		name: Label corresponding to each datapoint.
+		name: Label corresponding to the datapoint.
 		color: Color corresponding to the `name` datapoint.
-		bboxes: Each bounding box corresponding to the `name` datapoints in the plot.
+		bboxes: Bounding boxes corresponding to the `name` datapoints in the plot.
+		label: label corresponding to the datapoint which will appear as the legend (same as the `name` field).
+		x: x-value of the datapoints.
+		y: y-value of the datapoints.
 
 type: Type of the plot (vbar_categorical, hbar_categorical, dot_line, line).
 
