@@ -45,22 +45,13 @@ To check the code for our proposed pipeline, click [here](https://github.com/Nit
 
 Please cite the following if you use the PlotQA dataset in your work:
 ```
-@article{DBLP:journals/corr/abs-1909-00997,
-  author    = {Nitesh Methani and
-               Pritha Ganguly and
-               Mitesh M. Khapra and
-               Pratyush Kumar},
-  title     = {PlotQA: Reasoning over Scientific Plots},
-  journal   = {CoRR},
-  volume    = {abs/1909.00997},
-  year      = {2019},
-  url       = {http://arxiv.org/abs/1909.00997},
-  archivePrefix = {arXiv},
-  eprint    = {1909.00997},
-  timestamp = {Mon, 16 Sep 2019 17:27:14 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1909-00997},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
+@InProceedings{Methani_2020_WACV,
+author = {Methani, Nitesh and Ganguly, Pritha and Khapra, Mitesh M. and Kumar, Pratyush},
+title = {PlotQA: Reasoning over Scientific Plots},
+booktitle = {The IEEE Winter Conference on Applications of Computer Vision (WACV)},
+month = {March},
+year = {2020}
+} 
 ```
 
 #
