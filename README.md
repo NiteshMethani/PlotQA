@@ -42,7 +42,7 @@ To check the code for our proposed pipeline, click [here](https://github.com/Nit
 
 # LICENSE
 
-All the datasets created as part of this work are released under a [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license and all models & code aare released under an [MIT](https://github.com/NiteshMethani/PlotQA/blob/master/LICENSE) license.
+All the datasets created as part of this work are released under a [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license and all models & code are released under an [MIT](https://github.com/NiteshMethani/PlotQA/blob/master/LICENSE) license.
 
 #
 # Citation
